@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box; 
+
+
+}
+
+.nevbar{
+    height: 60px;
+    background-color:#0f1111 ;
+    color: white;
+    display: flex;
+
+    align-items: center;
+}
+.nev-logo
+{
+    height: 58px;
+
+    width: 100px;
+}
+
+.logo
+{
+    background-image: url("amazon_logo.png");
+    height: 58px;
+    background-size: cover;
+    width: 100px;
+}
+.boder
+{
+    border: 2px solid transparent;
+}
+
+.boder:hover
+{
+    border: 1.5px solid  white;
+}
+
+.add-icon{
+    display: flex;
+}
+
+.Delivery{
+  color: #cccccc ;
+
+  font-size: 12px;
+
+  margin: 10px;
+
+   
+}
+
+.Bangladesh
+{
+    color: white;
+
+    margin: 3px;
+
+    font: size 14px;;
+}
+
+.nev-search
+{
+    color: #0f1111;
+    width: 426.59;
+}

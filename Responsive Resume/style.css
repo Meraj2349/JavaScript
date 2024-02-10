@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+
+}
+
+body
+{
+   background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    margin: 50px;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    display:grid ;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb(0, 0,0,0,0.1);
+
+}
+.left_side
+{
+     position: relative;
+     background: #003147;
+     padding: 40px;
+}
+.profileText h2
+{
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.4em;
+
+}
+
+.contactinfo
+{
+    padding-top: 40px ;
+}
+
+.title
+{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 20px; 
+}
+.contactinfo ul
+{
+    position: relative;
+}
+.contactinfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactinfo ul li .icon
+{
+    display: inline-block;
+    width:30px ;
+    font-size: 18px;
+    color: #03a9f4;  
+}
+.contactinfo ul li span
+{
+    color: #fff;
+    font-weight: 300;
+}
+
+.Education_info
+{
+    padding-top: 40px ; 
+}
+
+.Education_title
+{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+.Education_info ul 
+{
+    
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 300;
+
+}
+
+
+.languages_class ul .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #192429;
+    display: block;
+
+}
+.languages_class ul .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+.languages_class .language_title
+
+{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+      
+}
+.languages_class ul li{
+    list-style: none;
+    margin-bottom: 20px;
+
+
+}
+.languages_class ul li .text{
+
+    color: #fff;
+
+}
+
+
+/* right side style css  */
+.Right_side
+{
+     position: relative;
+     background: #fff;
+     padding: 40px;
+}
+
+.project_info h2
+{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.project_info ul li{
+
+    list-style: none;
+    color: black;
+    margin-top: 10px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.participent_event h2{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.participent_event ul li{
+
+    list-style:none;
+    color: black;
+    margin-bottom: 10px;
+
+}
+
+.Links_info h2{
+
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.Links_info ul li
+{
+    
+    list-style:none;
+    color: black;
+    margin-bottom: 10px;
+
+}
+.couresework_info h2{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.couresework_info ul li
+{
+    
+    list-style:none;
+    color: black;
+    margin-bottom: 10px;
+
+}
+
+.intereste_class h3
+{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+.intereste_class ul li{
+    list-style:none;
+    color: black;
+    margin-bottom: 10px;
+    
+}
+
