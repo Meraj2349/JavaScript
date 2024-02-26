@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="music_player">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">boom</span>
+        </div>
+        <div data-key="66" class="key">
+            <kbd>B</kbd>
+            <span class="sound">kick</span>
+        </div>
+    </div>
+
+    <audio data-key="65" src="boom.mp3"></audio>
+    <audio data-key="66" src="kick.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
